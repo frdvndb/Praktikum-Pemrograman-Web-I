@@ -1,0 +1,80 @@
+@font-face {
+    font-family: goudy;
+    src: url(GOUDYSTO.TTF);
+}
+@font-face {
+    font-family: broadway;
+    src: url(BroadwayMTStd.otf);
+}
+@font-face {
+    font-family: bodoni;
+    src: url(unicode.bodonieb.ttf);
+}
+
+body {
+    text-align: center;
+    line-height: 1.2em;
+    background-color: gainsboro;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 90%;
+
+}
+div {
+    width: 560px;
+    height: 580px; 
+    background-color: #ffffff;
+    border-style: double;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+h1 {
+    line-height: 10px;
+    
+}
+
+h1.one {
+    font-family: broadway;
+    font-size: 15px;
+    
+}
+
+h1.two {
+    font-family: goudy;
+    font-size: 25px;
+}
+
+h1.three {
+    font-family: bodoni;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+ul {
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    text-align: center;     
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+hr.one {
+    border: 1px solid black;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover, a.on {
+    color: #ff0000;
+    
+}
